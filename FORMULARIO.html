@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="Estilos.css"/>
+    <title>FORMULARIO</title>
+
+    <style>body{background-image: url("img/RO.jpg");
+        background-size: cover;}</style>
+  
+            <head>
+    
+                <body>
+
+                    <h1>
+                        Formulario de Películas de <span class="titulo"> Marvel</span>
+                    </h1>
+
+                    <p>CUAL ES TU PELICULA FAVORITA Y ¿PORQUE?</p>
+                    <textarea name="Respuesta" cols="80" rows="4"></textarea>
+
+                    <p>HEROE FAVORITO:</p>
+                    <select name="HEROE">
+                        <option value="Iron Man">Iron Man</option>
+                        <option value="Thor">Thor</option>
+                        <option value="Capitan America">Capitan America</option>
+                        <option value="Hulk">Hulk</option>
+                        <option value="Natasha Romanoff">Natasha Romanoff</option>
+                        <option value="Clint Barton">Clint Barton</option>
+                        <option selected="Opcion">Opcion</option>
+                    </select>
+
+                    <h3>Sube Una Foto De Tu Heroe.</h3>
+                    <input type="file" name="fichero" size="40" />
+
+                    <p>¿Cuál fue la pelea más épica que has visto de tu heroe en las películas de Marvel?</p>
+                    <input type="text" escena="2012" size="50" maxlength="50"/>
+                    <br>
+
+                    <h3>QUIEN TE GUSTARIA QUE REGRESA AL MCU</h3>
+                    <p>Iron Man<input type="checkbox" name="tony" value="Iron Man" /></p>
+                    <p>Natasha Romanoff<input type="checkbox" name="natasha" value="Natasha Romanoff" /></p>
+                    <p>Steve Rogers<input type="checkbox" name="rogers" value="Steve Rogers" /></p>
+                    <p>Loki<input type="checkbox" name="loki" value="Loki" /></p>
+                    
+                    <p><h3>TE GUSTO COMO ES QUE FINALIZO LA SAGA DEL INFINITO</h3></p>
+                    <p>SI<input type="radio" name="saga" value="SI" /></p>
+                    <p>NO<input type="radio" name="saga" value="NO" /></p>
+
+                    <input type="submit" name="Envio" value="Enviar" />
+
+                </body>
+            </html>

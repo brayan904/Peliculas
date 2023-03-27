@@ -1,0 +1,30 @@
+body
+{background-color:aliceblue;}
+
+.marvel
+{text-align:center;}
+
+.universo
+{text-align:center;}
+
+th
+{color:aliceblue;}
+
+td
+{color:aliceblue;}
+
+h2 em
+{color:rgb(26, 3, 177);}
+
+a[title]
+{color:yellow;}
+
+.titulo
+{color:red;}
+
+*
+{
+    font-family:'Times New Roman';
+}
+
+
